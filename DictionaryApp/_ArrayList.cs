@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DictionaryApp
+namespace CollectionApp
 {
     class _ArrayList:IEnumerable
     {
