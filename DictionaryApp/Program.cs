@@ -50,6 +50,7 @@ namespace CollectionApp
             Console.WriteLine("The value Friday contain in the SortedList:" + dayOfWeek.ContainsValue("Friday"));
             Console.WriteLine("The value May contain in the SortedList:" + dayOfWeek.ContainsValue("May"));
             Console.WriteLine("The value Wednesday contain in the SortedList:" + dayOfWeek.ContainsValue("Wednesday"));
+
             Stack<int> numbers = new Stack<int>();
             numbers.Push(5);
             numbers.Push(4);
@@ -69,6 +70,7 @@ namespace CollectionApp
             }
             Console.WriteLine();
             Console.WriteLine("Number of elements in Stack: {0}", numbers.Count);
+
             Queue<char> letters = new Queue<char>();
             letters.Enqueue('H');
             letters.Enqueue('e');
